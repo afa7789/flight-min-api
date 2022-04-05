@@ -1,4 +1,5 @@
 # Flight Min Api
+![!Theme Image](resources/banner.png)
 
 ## Take-Home Programming Assignment for GoLang
 
