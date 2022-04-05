@@ -1,7 +1,7 @@
 package server
 
 import (
-	"github.com/gofiber/fiber/v2"
+	fiber "github.com/gofiber/fiber/v2"
 )
 
 func StartEndOfFlight(c *fiber.Ctx) error {

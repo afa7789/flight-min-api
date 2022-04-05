@@ -5,7 +5,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/gofiber/fiber/v2"
+	fiber "github.com/gofiber/fiber/v2"
 )
 
 // Server is the definition of a REST server based on Gin
