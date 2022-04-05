@@ -16,13 +16,13 @@ type Server struct {
 // New returns a new server that takes advantage of zerolog for logging
 // and holds a reference to the app configuration
 func NewServer() *Server {
-	server := &Server{}
-
 	r := fiber.New()
 
-	server.router = r
+	r.Get("/flight_points", FlightPoints)
 
-	return server
+	return &Server{
+		router: r,
+	}
 }
 
 // Start starts the REST server
