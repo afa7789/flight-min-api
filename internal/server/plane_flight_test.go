@@ -35,7 +35,7 @@ func TestStartEndOfFlight(t *testing.T) {
 			resp, _ := s.router.Test(req)
 
 			// Do something with results:
-			if resp.StatusCode == tt.wantedStatus {
+			if resp.StatusCode != tt.wantedStatus {
 				t.Errorf("StartEndOfFlight() = %v, want %v", resp.StatusCode, tt.wantedStatus)
 			}
 		})
