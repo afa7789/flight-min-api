@@ -8,7 +8,6 @@ import (
 )
 
 func TestStartEndOfFlight(t *testing.T) {
-
 	tests := []struct {
 		name         string
 		payload      string
@@ -27,7 +26,6 @@ func TestStartEndOfFlight(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-
 			s := NewServer()
 
 			req := httptest.NewRequest("GET", "http://google.com", nil)
