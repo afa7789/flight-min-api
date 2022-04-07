@@ -3,7 +3,8 @@
 
 ## Take-Home Programming Assignment for GoLang
 
-A take home assignment in Golang
+A take home assignment in Golang.
+Minimal example of how to create an API in go ( it's not using clean architecture tough )
 
 ### Story: 
 There are over 100,000 flights a day, with millions of people and cargo being transferred around the world. With so many people and different carrier/agency groups, it can be hard to track where a person might be. In order to determine the flight path of a person, we must sort through all of their flight records.
