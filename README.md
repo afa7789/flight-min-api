@@ -14,10 +14,20 @@ To create a simple microservice API that can help us understand and track how a 
 
 ## Install & Run
 
-```
+```sh
     git clone https://github.com/afa7789/flight-min-api
     cd flight-min-api
     go run .
+```
+
+## Testing project
+
+``` sh
+    git clone https://github.com/afa7789/flight-min-api
+    cd flight-min-api
+    make test
+    # or lint
+    make lint
 ```
 
 ## Tree, Project Structure
